@@ -29,7 +29,7 @@ class Server(paramiko.ServerInterface):
         
 
 if __name__ == '__main__':
-    server = 'IP'
+    server = input('Enter Server IP: ')
     ssh_port = 2222
 
     try:
